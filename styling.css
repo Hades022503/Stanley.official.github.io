@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.clear{
+    clear: both;
+}
+
+#section1{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+nav{
+    color: white;
+    padding: 3rem;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    transition: .5s;
+}
+
+nav h1{
+    color: rgba(255, 0, 0, 0.9);
+    font-size: 5.5rem;
+    float: left;
+    font-family: fantasy;
+    letter-spacing: .5rem;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    margin: 1rem 15rem;
+}
+
+p{
+    margin-top: 50rem;
+    margin-left: 15rem;
+    color: white;
+    font-size: 6rem;
+}
+
+#name{
+    color: red;
+    font-size: 8rem;
+    font-weight: bolder;
+}
+
+#course{
+    color: white;
+    font-size: 5rem;
+}
+
+#logo{
+    position: absolute;
+    top: 30rem;
+    margin-left: 170rem;
+    background: rgba( 213, 173, 173, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10rem;
+border: .5px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+#CV{
+    position: relative;
+    top: 5rem;
+    left: 15rem;
+    padding: 1rem 5rem;
+    text-decoration: none;
+    border: red .5rem solid;
+    border-radius: 1rem 2rem 1rem;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#CV:hover{
+    background-color: red;
+    transition: 0.7s;
+}
+
+#section2{
+    background-color: wheat;
+    width: 100%;
+    height: 430rem;
+    display: block;
+}
+
+#text-section2{
+    color:black;
+    
+ 
+}
+
+#h1-section2{
+    padding-top: 10rem;
+    font-size: 8rem;
+}
+
+#section2-text{
+    margin-top: 30rem;
+    font-size: 5rem;
+    font-family: fantasy;
+    letter-spacing: .5rem;
+    color: black;
+}
+
+
+.My-name{
+    color: red
+}
+
+.intro{
+    font-family: monospace;
+    margin-top: 5rem;
+    font-size: 3.8rem;
+    color: black;
+}
+
+#ME2{
+    position: absolute;
+    top: 150rem;
+    margin-left: 170rem;
+    height: 80rem;
+    width: 70rem;
+    border: 1rem solid bisque;
+    border-radius: 2rem 2rem;
+    box-shadow: 2rem 3rem 2rem 3rem grey;
+
+}
+
+.html{
+    position: absolute;
+    top: 305rem;
+    margin-left: 20rem;
+    border: 3rem solid blanchedalmond;
+    box-shadow: 2rem 2rem 2rem gray;
+    border-radius: 8rem;
+    display: flex;
+}
+
+ .css{
+    position: absolute;
+    top: 305rem;
+    margin-left: 90rem;
+    border: 3rem solid blanchedalmond;
+    box-shadow: 2rem 2rem 2rem gray;
+    border-radius: 8rem;
+    display: flex;
+}
+
+.script{
+    position: absolute;
+    top: 305rem;
+    margin-left: 160rem;
+    border: 3rem solid blanchedalmond;
+    box-shadow: 2rem 2rem 2rem gray;
+    border-radius: 8rem;
+    display: flex;
+}
+
+.heading-2 p{
+    position: absolute;
+    top: 220rem;
+    left: 50rem;
+    color: black;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#obj1{
+    position: absolute;
+    top: 330rem;
+    left: 80rem;
+    margin-right: 200rem;
+    font-size: 10rem;
+    font-weight: bold;
+    color: red;
+}
+
+#obj2{
+    color: red;
+    position: absolute;
+    top: 370rem;
+    left: 1rem;
+    font-size: 4rem;
+}
+
+.name{
+    color: red;
+    font-weight: bold;
+
+}
+
+span{
+    font-size: 8rem;
+}
+
+pre{
+    position: absolute;
+    top: 450rem;
+    left: 100rem;
+    font-size: 4rem;
+}
+
+#section3{
+    background-color: rgba(60, 0, 255, 0.255);
+    width: 100%;
+    height: 400rem;
+    display: block;
+}
+
+
+
+@media only screen and (min-width: 768px)
+    {
+        #section1{
+            display: block;
+        }
+
+        #section2{
+            display: block;
+        }
+        #section3{
+            display: block;
+        }
+
+        .html{
+            height: 50rem;
+            width: 50rem;
+            display:block;
+        }
+
+        #me{
+            display: block;
+        }
+
+        .css{
+            height: 50rem;
+            width: 50rem;
+            display: block;
+        }
+        
+        .script{
+            height: 50rem;
+            width: 50rem;
+            display: block;
+        }
+
+        .heading-2 p{
+            display: block;
+    
+        }
+
+        #obj1{
+            color: black;
+
+        }
+}
+
+
+
+.contact{
+    position: absolute;
+    top: 570rem;
+    left: 50rem;
+     background: black;
+     padding-bottom: 10rem;
+     border: 1rem solid wheat;
+     border-radius: 2rem;
+     height: 130rem;
+     width: 150rem;
+     -webkit-box-shadow: -1px 3px 121px 23px rgba(122,46,122,1);
+     -moz-box-shadow: -1px 3px 121px 23px rgba(122,46,122,1);
+     box-shadow: -1px 3px 121px 23px rgba(122,46,122,1);
+ }
+ 
+ .contact h1{
+     margin-top: 3rem;
+     margin-left: 55rem;
+     color: darksalmon;
+     font-size: 10rem;
+ }
+ 
+ .contact p{
+     margin-top: 3rem;
+     color: aliceblue;
+     font-size: 8rem;
+ }
+ 
+ form{
+     display: block;
+
+  }
+ 
+ 
+  label{
+     color: darksalmon;
+     font-size: 5rem;
+     font-weight: bold;
+  }
+ 
+  div{
+     width: 100%;
+     margin: 15px auto;
+  }
+ 
+  input{
+     margin-top: 2rem;
+  }
+ 
+  button{
+     margin-top: 2rem;
+     margin-left: 30rem;
+     padding: 3rem;
+     width: 30rem;
+     border-radius: 1rem .5rem .6rem;
+     background: linear-gradient(90deg, royalblue, lightgreen);
+  }
+ 
+ #username{
+     margin-top: 30rem;
+     border-radius: .5rem;
+     margin-left: 1rem;
+     padding: 2rem;
+     width: 40rem;
+ }
+ 
+ #password{
+     border-radius: .5rem;
+     margin-left: 1rem;
+     padding: 2rem;
+     width: 40rem;
+ }
+
+#fb{
+    position: absolute;
+    top: 55rem;
+    left: 20rem;
+
+}
+
+#mail{
+    position: absolute;
+    top: 55rem;
+    left: 100rem;
+}
+ 
